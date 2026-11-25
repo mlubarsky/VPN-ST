@@ -10,8 +10,6 @@ NLPers Group Project - VPN-ST (search and translate)
 
 Both scripts use only the Python standard library (Python 3.9 or newer); there is nothing to `pip install`.
 
-The data files are not in this repo. Put `queries.csv` and `dataset.csv` in the same folder as the scripts before running them.
-
 ## Setting up OpenSERP (Docker)
 
 `collect.py` runs searches with [OpenSERP](https://github.com/karust/openserp) inside a Docker image named `openserp-local`. You need [Docker](https://docs.docker.com/get-docker/) installed and running, then build the image once:
